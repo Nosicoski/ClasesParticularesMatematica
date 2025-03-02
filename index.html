@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clases particulares de Matemática</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-square-root-alt"></i>
+                <h1>Clases particulares de Matemática</h1>
+            </div>
+            <nav>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#temas">Temas</a></li>
+                    <li><a href="#disponibilidad">Disponibilidad</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Aprende matemáticas de forma clara y efectiva</h2>
+                <p>Clases personalizadas para todos los niveles. Metodología probada para entender conceptos difíciles de manera sencilla.</p>
+                <a href="#contacto" class="btn btn-primary">Reserva tu clase</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&h=500&q=80" alt="Matemáticas">
+            </div>
+        </div>
+    </section>
+
+    <section id="niveles" class="levels">
+        <div class="container">
+            <h2 class="section-title">Niveles que enseño</h2>
+            <div class="levels-grid">
+                <div class="level-card">
+                    <div class="level-icon"><i class="fas fa-child"></i></div>
+                    <h3>Primario</h3>
+                    <p>Apoyo escolar para niños de primaria en todas las áreas de matemáticas.</p>
+                </div>
+                <div class="level-card">
+                    <div class="level-icon"><i class="fas fa-user-graduate"></i></div>
+                    <h3>Secundario</h3>
+                    <p>Clases para estudiantes de secundaria, abordando temas más avanzados.</p>
+                </div>
+                <div class="level-card">
+                    <div class="level-icon"><i class="fas fa-book-reader"></i></div>
+                    <h3>Ciclo Básico</h3>
+                    <p>Preparación para exámenes y refuerzo en matemáticas del ciclo básico.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="disponibilidad" class="availability">
+        <div class="container">
+            <h2 class="section-title">Mi disponibilidad</h2>
+            <div class="schedule-info">
+                <h3>Horarios disponibles:</h3>
+                <div class="schedule-grid">
+                    <div class="schedule-item">
+                        <div class="day">Lunes a Viernes</div>
+                        <div class="hours">13:00 - 20:00</div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="day">Sábados</div>
+                        <div class="hours">10:00 - 14:00</div>
+                    </div>
+                </div>
+                <p class="schedule-note">Las clases tienen una duración de 1.5 horas. Consulta por disponibilidad específica.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>¿Listo para empezar?</h3>
+                    <p>Contáctame por WhatsApp para agendar tu primera clase o resolver cualquier duda que tengas.</p>
+                    <a href="https://wa.me/5493516232012?text=Estoy%20interesado%20en%20clases%20particulares" class="whatsapp-button">
+
+                        <i class="fab fa-whatsapp"></i> Contactar por WhatsApp
+                    </a>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>Azulvalverde13@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Clases online o presenciales en Córdoba Capital</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fas fa-phone""></i>
+                            <span>+54 351-623-2012</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Envíame un mensaje</h3>
+                    <form id="contact-form" action="https://formsubmit.co/Azulvalverde13@gmail.com" method="POST">
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastname">Apellido</label>
+                            <input type="text" id="lastname" name="lastname" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Teléfono (opcional)</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="days">Días que quieres cursar</label>
+                            <select id="days" name="days" required>
+                                <option value="">Selecciona los días</option>
+                                <option value="Lunes">Lunes</option>
+                                <option value="Martes">Martes</option>
+                                <option value="Miércoles">Miércoles</option>
+                                <option value="Jueves">Jueves</option>
+                                <option value="Viernes">Viernes</option>
+                                <option value="Sábado">Sábado</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="topics">Temas de interés</label>
+                            <input type="text" id="topics" name="topics" placeholder="Escribe los temas que te interesan" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Clases de Matemática . Todos los derechos reservados.</p>
+            <div class="social-links">
+               
+                
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
